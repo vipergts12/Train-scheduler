@@ -8,35 +8,62 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<title>Train scheduler</title>
 </head>
 <div class="jumbotron jumbotron-fluid">
 	<div class="container">
-	  <h1 class="display-4">Train Scheduler</h1>
-	  <p class="lead">Use this site to look up local trains for your commute.</p>
+		<h1 class="display-4">Train Scheduler</h1>
+		<p class="lead">Use this site to look up local trains for your commute.</p>
 	</div>
-  </div>
-<div class="table"> 
-	<table class="table table-hover">
+</div>
+<form>
+		<div class="form-group">
+		  <label for="exampleInputEmail1">From:</label>
+		  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="city">
+		  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		</div>
+		<div class="form-group">
+		  <label for="exampleInputPassword1">Password</label>
+		  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		</div>
+		<div class="form-group form-check">
+		  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	  </form>
+<table class="table table-hover">
 		<thead>
-			<button id="Get-train-times">Get train times</button>
-		<tr>
-			<th id="to" scope="col">To:</th>
-			<th id="from" scope="col">From:</th>
-			<th id="travel" scope="col">Approximate time of travel</th>
-			<th id="departs" scope="col">Departs:</th>
-			<th id="arrive" scope="col">Arrive:</th>
-		</tr>
+		  <tr>
+			<th scope="col">Train #</th>
+			<th scope="col">Depart</th>
+			<th scope="col">Arrive</th>
+			<th scope="col">Expected</th>
+		  </tr>
 		</thead>
 		<tbody>
-			<tr>
-
-			</tr>
+		  <tr>
+			<th scope="row">1</th>
+			<td>Glenbrook station</td>
+			<td>Penn Station</td>
+			<td>On time</td>
+		  </tr>
+		  <tr>
+			<th scope="row">2</th>
+			<td>Penn Station</td>
+			<td>DC</td>
+			<td>5 Minute Delay</td>
+		  </tr>
+		  <tr>
+				<th scope="row">3</th>
+				<td>Bridgeport</td>
+				<td>New Haven</td>
+				<td>5 Minute Delay</td>
+		  </tr>
 		</tbody>
-</div>
-
+	  </table>
 <body>
 
 

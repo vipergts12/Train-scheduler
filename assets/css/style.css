@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/4b/a4/1d/4ba41d8db74f789c3ccf9397db04060d.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/21/10/01/desktop-3246124_1280.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -18,10 +18,8 @@ body {
     box-shadow: 10px 10px 5px black;
 }
 .table {
-    background: rgb(253, 252, 252, .3);
+    background: rgba(17, 40, 243, 0.3);
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-tr {
+    font-family: 'Times New Roman', Times, serif; 
     font-style: bold;
 }
