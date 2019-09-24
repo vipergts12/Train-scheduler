@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/4b/a4/1d/4ba41d8db74f789c3ccf9397db04060d.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+.jumbotron {
+    background: rgb(0, 255, 255, .3); 
+}
+.container {
+    background: rgba(17, 40, 243, 0.3);
+    text-align: center;
+    box-shadow: 5px 5px 2.5px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container:hover {
+    box-shadow: 10px 10px 5px black;
+}
+.table {
+    background: rgb(253, 252, 252, .3);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+tr {
+    font-style: bold;
+}
